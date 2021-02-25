@@ -1,0 +1,46 @@
+.todo-app {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/** add todo **/
+.add-todo {
+  margin-left: 0.5rem;
+}
+
+/** todo list **/
+.todo-list {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+  border: 1px solid black;
+  padding: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: khaki;
+}
+
+/** todo item **/
+.todo-item {
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+}
+.todo-item__text--completed {
+  text-decoration: line-through;
+  text-decoration-style: double;
+}
+
+/** visibility filters **/
+.filter {
+  padding: 0.3rem 0;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+.filter--active {
+  border-bottom: 1px solid red;
+  border-bottom-width: 2px;
+  font-weight: bold;
+}
